@@ -1,0 +1,146 @@
+import React from 'react'
+import './Articles.css'
+import Suspension from './../assets/suspension.png'
+import Brake from './../assets/brake.avif'
+import Transmission from './../assets/transmission.png'
+function Articles() {
+  return (
+    <div className="parent-container">
+      <div className="article-container">
+        <h1>Components of a Car</h1>
+      <div className="article">
+      <a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiYnsSFq9-FAxUz6zgGHV_zCggQFnoECBIQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEngine&usg=AOvVaw2nIXdnMGd-LbRSac4zk7s5&opi=89978449'><b>How a Engine Works</b></a>
+        <div className="article-des">
+        <img src="https://www.howacarworks.com/illustration/81/the-parts-of-an-overhead-camshaft-engine.png" alt="" className='engine-img'/>
+        <p>
+        The engine is the heart of your car. It is a complex machine built to convert heat from burning gas into the force that turns the road wheels.
+          The chain of reactions which achieve that objective is set in motion by a spark , which ignites a mixture of petrol vapour and compressed air inside a momentarily sealed cylinder and causes it to burn rapidly. That is why the machine is called an internal combustion engine . As the mixture burns it expands, providing power to drive the car.
+
+          To withstand its heavy workload, the engine must be a robust structure. It consists of two basic parts: the lower, heavier section is the cylinder block, a casing for the engine's main moving parts; the detachable upper cover is the cylinder head .
+
+          The cylinder head contains valve-controlled passages through which the air and fuel mixture enters the cylinders, and others through which the gases produced by their combustion are expelled.
+
+          The block houses the crankshaft , which converts the reciprocating motion of the pistons into rotary motion at the crankshaft. Often the block also houses the camshaft , which operates mechanisms that open and close the valves in the cylinder head. Sometimes the camshaft is in the head or mounted above it.
+
+          The chain of reactions which achieve that objective is set in motion by a spark , which ignites a mixture of petrol vapour and compressed air inside a momentarily sealed cylinder and causes it to burn rapidly. That is why the machine is called an internal combustion engine . As the mixture burns it expands, providing power to drive the car.
+
+          To withstand its heavy workload, the engine must be a robust structure. It consists of two basic parts: the lower, heavier section is the cylinder block, a casing for the engine's main moving parts; the detachable upper cover is the cylinder head .
+
+          The cylinder head contains valve-controlled passages through which the air and fuel mixture enters the cylinders, and others through which the gases produced by their combustion are expelled.
+
+          The block houses the crankshaft , which converts the reciprocating motion of the pistons into rotary motion at the crankshaft. Often the block also houses the camshaft , which operates mechanisms that open and close the valves in the cylinder head. Sometimes the camshaft is in the head or mounted above it.
+
+
+          Different engine layouts
+          In-line engine
+
+          The simplest and most common type of engine comprises four vertical cylinders close together in a row. This is known as an in-line engine . Cars with capacities exceeding 2,000cc often have six cylinders in line.
+
+          V-8 engine
+
+          The more compact V-engine is fitted in some cars, especially vehicles with eight or 12 cylinders, and also some with six cylinders. Here the cylinders are arranged opposite each other at an angle of up to 90 degrees.
+
+          Horizontally-opposed engine
+
+          Some engines have horizontally opposed cylinders . They are an extension of the V-engine, the angle having been widened to 180 degrees. The advantages lie in saving height and also in certain aspects of balance.
+
+          The cylinders in which the pistons operate are cast into the block, as are mountings for ancillary equipment such as a filter for the oil which lubricates the engine, and a pump for the fuel. An oil reservoir , called the sump , is bolted underneath the crankcase .
+        </p>
+        </div>
+        
+      </div>
+      <div className="article">
+      <a href='https://auto.howstuffworks.com/car-suspension.htm'><b>How a Suspension Works</b></a>
+        <div className="article-des">
+        <p>
+        A car suspension works on the principle of force dissipation. It involves converting the force into heat and thus, negating the impact on the car's body. The suspension system uses components such as springs, shock absorbers and struts to achieve the damping effect. When people think of automobile performance, they normally think of horsepower, torque and zero-to-60 acceleration. But all of the power generated by a piston engine is useless if the driver can't control the car. That's why automobile engineers turned their attention to the suspension system almost as soon as they had mastered the four-stroke internal combustion engine.
+
+        The job of a car suspension is to maximize the friction between the tires and the road surface, to provide steering stability with good handling and to ensure the comfort of the passengers. In this article, we'll explore how car suspensions work, how they've evolved over the years and where the design of suspensions is headed in the future.
+
+        If a road was perfectly flat, with no irregularities, suspensions wouldn't be necessary. But roads are far from flat. Even freshly paved highways have subtle imperfections that can interact with the wheels­ of a car. It's these imperfections that apply forces to the wheels. According to Newton's Laws of Motion, all forces have both magnitude and direction. A bump in the road causes the wheel to move up and down perpendicular to the road surface. The magnitude, of course, depends on whether the wheel is striking a giant bump or a tiny speck. Either way, the car wheel experiences a vertical acceleration as it passes over an imperfection.
+        Without an intervening structure, all of the wheel's vertical energy is transferred to the frame, which moves in the same direction. In such a situation, the tires can lose contact with the road completely. Then, under the downward force of gravity, the tires can slam back into the road surface. What you need is a system that will absorb the energy of the vertically accelerated wheel, allowing the frame and body to ride undisturbed while the tires follow bumps in the road.
+
+        The study of the forces at work on a moving car is called vehicle dynamics, and you need to understand some of these concepts in order to appreciate why a suspension is necessary in the first place. Most automobile engineers consider the dynamics of a moving car from two perspectives:
+ </p>
+        
+        <img src={Suspension} alt="" className='engine-img'/>
+        </div>
+        
+      </div>
+      <div className="article">
+      <a href='https://auto.howstuffworks.com/auto-parts/brakes/brake-types/brake.htm'><b>How a Brake Works</b></a>
+        <div className="article-des">
+        <img src={Brake} alt="" className='engine-img'/>
+        <p>
+        When you press the brake pedal, the hydraulic system is activated. The hydraulic unit then sends brake fluid through the brake hoses into the caliper inducing pressure on the caliper piston. The calipers squeeze the brake pads onto the brake discs, causing friction and slowing the vehicle down.
+        Simple hydraulic system
+Two pistons are fit into two glass cylinders filled with oil and connected to one another with an oil-filled pipe. If you apply a downward force to one piston, then the force is transmitted to the second piston through the oil in the pipe. Since oil is incompressible, the efficiency is very good -- almost all of the applied force appears at the second piston. The great thing about hydraulic systems is that the pipe connecting the two cylinders can be any length and shape, allowing it to snake through all sorts of things separating the two pistons. The pipe can also fork, so that one master cylinder can drive more than one slave cylinder if desired.
+
+Master cylinder with two slaves
+The other neat thing about a hydraulic system is that it makes force multiplication (or division) fairly easy. If you have read How a Block and Tackle Works or How Gear Ratios Work, then you know that trading force for distance is very common in mechanical systems. In a hydraulic system, all you have to do is change the size of one piston and cylinder relative to the other.
+
+Hydraulic multiplication
+To determine the multiplication factor, start by looking at the size of the pistons. Assume that the piston on the left is 2 inches (5.08 cm) in diameter (1-inch / 2.54 cm radius), while the piston on the right is 6 inches (15.24 cm) in diameter (3-inch / 7.62 cm radius). The area of the two pistons is Pi * r2. The area of the left piston is therefore 3.14, while the area of the piston on the right is 28.26. The piston on the right is nine times larger than the piston on the left. This means that any force applied to the left-hand piston will come out nine times greater on the right-hand piston. So, if you apply a 100-pound downward force to the left piston, a 900-pound upward force will appear on the right. The only catch is that you will have to depress the left piston 9 inches (22.86 cm) to raise the right piston 1 inch (2.54 cm).
+­Friction is a measure of how hard it is to slide one object over another. Take a look at the figure below. Both of the blocks are made from the same material, but one is heavier. I think we all know which one will be harder for the bulldozer to push.
+
+To understand why this is, let's take a close look at one of the blocks and the table:
+
+
+Because friction exists at the microscopic level, the amount of force it takes to move a given block is proportional to that block's weight.
+Even though the blocks look smooth to the naked eye, they are actually quite rough at the microscopic level. When you set the block down on the table, the little peaks and valleys get squished together, and some of them may actually weld together. The weight of the heavier block causes it to squish together more, so it is even harder to slide.
+        </p>
+        </div>
+        
+      </div>
+      <div className="article">
+      <a href='https://www.howacarworks.com/basics/how-the-transmission-works'><b>How a Transmission Works</b></a>
+        <div className="article-des">
+        <p>
+        In a front-engined rear-wheel-drive car, power is transmitted from the engine through the clutch and the gearbox to the rear axle by means of a tubular propeller shaft.
+
+The rear axle must be able to move up and down on the suspension according to variations of the road surface.
+
+The movement causes the angle of the propeller shaft, and the distance between the gearbox and the rear axle, to change constantly.
+
+To allow for the constant movement, splines on the front end of the propeller shaft slide in and out of the gearbox as the distance changes; the shaft also has universal joints at each end, and sometimes in the middle.
+
+The universal joints allow the propeller shaft to be flexible, while constantly transmitting power.
+
+The last part of the transmission is the final drive, which incorporates the differential and is sometimes called the differential.
+
+Final drive
+
+Attached to the propellor shaft is a pinion gear that enters the differential housing in the centre of the rear axle. Bevelled pinion gears inside the differential turn with the crown wheel and drive the half shafts to the rear wheels, usually both at the same speed. During cornering, they allow one road wheel to turn faster than the other.
+The differential has three functions: to turn the direction of drive through 90 degrees to the rear wheels; to allow either rear wheel to turn faster than the other when cornering; and to effect a final gear reduction .
+
+A pinion gear inside the differential is driven by the propeller shaft and has its gears bevelled - cut at an angle. It meshes with a bevelled crown wheel so that the two gears form a 90 degree angle.
+
+Universal joint
+
+The commonest type of universal joint, the Hooke joint, uses a cross-shaped 'spider' across the axis of the drive shaft. The 'spider' runs on needle-roller bearings to minimise friction.
+The crown wheel usually has about four times as many teeth as the pinion gear, causing the wheels to turn at a quarter the propeller-shaft speed.
+
+The drive is transmitted from the differential to the rear wheels by means of half shafts, or drive shafts .
+
+At the differential end of each half shaft, a bevelled pinion gear is connected to the crown wheel by means of an intermediate set of bevel pinions.
+
+Driving through the front wheels
+Transverse engine
+
+The gearbox is built into the crankcase, and drive is transmitted to the front wheels by universally jointed shafts.
+Front-wheel-drive cars use the same transmission principles as rear-wheel-drive cars, but the mechanical components vary in design according to the engine and gearbox layout.
+
+Transverse engines are normally mounted directly above the gearbox, and power is transmitted through the clutch to the gearbox by a train of gears.
+        </p>
+        
+        <img src={Transmission} alt="" className='engine-img'/>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+    
+  )
+}
+
+export default Articles

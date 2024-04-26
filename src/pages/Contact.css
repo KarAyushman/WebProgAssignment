@@ -1,0 +1,99 @@
+.contact-container{
+    background-color: black;
+    height: 89.5vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    background-color: white;
+    width: 2px;
+    height: 600px;
+}
+
+.feedback{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-card{
+    width: 550px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: rgb(30,30,30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.feed-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feed-form p{
+    width: 400px;
+    text-align:left;
+}
+
+.feed-form input{
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid darkgray;
+    height: 25px;
+    width: 400px;
+    color: white;
+}
+
+.input-long{
+    height: 100px !important;
+}
+
+.submit-btn{
+    width: 200px;
+    margin: 25px 0px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.submit-btn :hover{
+    width: 200px;
+    margin: 25px 0px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
